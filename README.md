@@ -8,19 +8,27 @@ then shows the image that got from response.
 
 # Clone the repo
 
-`git clone https://github.com/Bazsmagister/YesOrNo-laravel.git
+```sh
+git clone https://github.com/Bazsmagister/YesOrNo-laravel.git
+```
 
 cd [into_the_cloned_repo]
 
-`composer install`
+```sh
+composer install
+```
 
 // linux:
 
-`cp .env.example .env`
+```sh
+cp .env.example .env
+```
 
 // windows:
 
-`copy .env.example .env`
+```sh
+copy .env.example .env
+```
 
 For Database there are more options:
 
@@ -32,9 +40,13 @@ touch database/database.sqlite
 
 2.Or Edit .env file with database credentials
 
-`php artisan key:generate`
+```sh
+php artisan key:generate
+```
 
-`php artisan migrate`
+```sh
+php artisan migrate
+```
 
 <!---
 
@@ -48,7 +60,9 @@ touch database/database.sqlite
 
 ## To make the app running:
 
-`php artisan serve`
+```sh
+php artisan serve
+```
 
 ## License
 
